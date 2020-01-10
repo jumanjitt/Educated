@@ -1178,7 +1178,7 @@ span.user_name a:hover {
 
 .rank {  /* rank applies to all the following styles */
     font-weight: bold;
-    color:  #dadada !important;
+    color:  #dadada;
 }  
 
 .Apprentice { color:#92a5c2; }
@@ -2418,10 +2418,14 @@ ul .invitetree {
 
 /* Layout (MISC) */
 
+.shoutbox span {
+    text-shadow: 0px;
+}
+
 .left_poll {
     width: 2px;
     height: 9px;
-    background: url('images/bar_left.gif') no-repeat center center;
+    background: url(../images/bar_left.gif) no-repeat center center;
     float: left;
     margin: 0px;
     padding: 0px;
@@ -2429,7 +2433,7 @@ ul .invitetree {
 
 .center_poll {
     height: 9px;
-    background: url('images/bar.gif') repeat;
+    background: url(../images/bar.gif) repeat;
     float: left;
     margin: 0px;
     padding: 0px;
@@ -2438,7 +2442,7 @@ ul .invitetree {
 .right_poll {
     width: 2px;
     height: 9px;
-    background: url('images/bar_right.gif') no-repeat center center;
+    background: url(../images/bar_right.gif) no-repeat center center;
     float: left;
     margin: 0px;
     padding: 0px;
