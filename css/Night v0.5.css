@@ -20,6 +20,11 @@ html {
     width: 100%;
 }
 
+.box.pad.shoutbox {
+
+    padding: 1em;
+    padding-bottom: 0.1em;
+}
 
 /* ------------------------------------
  Main darkish blue (content bg, base for colhead colors etc)
