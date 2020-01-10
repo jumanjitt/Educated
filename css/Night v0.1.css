@@ -2418,7 +2418,7 @@ ul .invitetree {
 
 /* Layout (MISC) */
 
-.shoutbox span {
+span.shoutbox {
     text-shadow: 0px;
 }
 
