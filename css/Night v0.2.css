@@ -2418,8 +2418,8 @@ ul .invitetree {
 
 /* Layout (MISC) */
 
-span.shoutbox {
-    text-shadow: 0px;
+span.shoutbox a{
+    color:#18191a;
 }
 
 .left_poll {
