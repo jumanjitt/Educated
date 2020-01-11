@@ -131,6 +131,7 @@ input,textarea {
     padding: 5px 7px;
 }
 
+#
 
 
 img {
@@ -425,12 +426,21 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #menu:before {
 
-    content: ""; /* This is necessary for the pseudo element to work. */ 
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 50%; /* Change this to whatever width you want. */
-    padding-bottom: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
+    content:"<";
+    font-size: 0px;
+    color: #000;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background: #000;
+    /*content: ""; /* This is necessary for the pseudo element to work. */ 
+    /*display: block; /* This will put the pseudo element on its own line. */
+    /*margin: 0 auto; /* This will center the border. */
+    /*width: 50%; /* Change this to whatever width you want. */
+    /*padding-bottom: 20px; /* This creates some space between the element and the border. */
+    /*border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
 }
 #menu {
     -webkit-box-flex: 1;
@@ -1163,13 +1173,19 @@ li.searchbars {
 }
 
 /* user classes */
+
+form#userform {
+
+    background: #18191a;
+}
+
+
 .user_name { 
     font-weight: normal;
     position:   relative;   
-    top:   
-    padding: 1px 8px;
     margin: 0px;
     color: #000;
+    font-size: 0 !important;
 }
 
 span.user_name a { 
@@ -1682,7 +1698,14 @@ div.body {
     text-decoration: underline !important;
 }
 
-
+span.rank{
+    font-weight: bold;
+    position: relative;
+    margin: 0px;
+    color: #000;
+    font-size: 18px;
+    padding-left: 4px;
+}
 
 ul.nobullet {
     list-style-type: none;
@@ -1814,7 +1837,6 @@ input.shopbutton.itembuy:hover {
 }
 
 td.colhead, .colhead td, .colhead_dark {
-    border: 0px;
     background: #351c1e;
     background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#381f20),to(#351c1e));
     background: -webkit-linear-gradient(top,#381f20,#351c1e);
