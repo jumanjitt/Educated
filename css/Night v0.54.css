@@ -353,6 +353,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 
 #wrapper{
     background-size: 100px 100px;
+    background-color: #202224;
     background-image: url('../images/Dark-down.svg');
     overflow-x: overlay;
 }
