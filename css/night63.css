@@ -744,8 +744,15 @@ table.userinfo_stats a {
     -webkit-box-ordinal-group: 1;
     -ms-flex-order: 0;
     order: 0;
-    z-index: 1001
+    z-index: 1001;
 }
+
+#upload_table td {
+
+     font-size: 15px;   
+ }
+
+
 
 @media only screen and (max-width:789px) {
     #nav_userinfo {
@@ -1901,9 +1908,10 @@ strong{
 }
 
 td.label {
-    font-weight: bold;
+    font-weight: normal;
     text-align: right;
     width: 100px;
+    font-size: 15px;
 }
  
 
@@ -2084,7 +2092,7 @@ ul.poll li.graph {
 }
 
 .torrent_table td {
-    padding: 5px;
+    padding: 10px;
 }
 
 .group {
@@ -3555,15 +3563,21 @@ table.forum_index {
 
 }
 
-table.forum_index a{
+table.forum_index a {
         font-size:  12px;
         color:  #f0f0f0;
 }
 
-table.forum_index a:visited{
+table.forum_index a:visited {
         font-size:  12px;
         color:#f0f0f2;
 }
+
+table.forum_index a:visited:hover {
+
+    color: #ff8354;
+}
+
 
 tr.smallhead {
 
