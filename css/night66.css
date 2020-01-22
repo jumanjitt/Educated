@@ -3615,19 +3615,19 @@ table.torrent_table a:visited:hover {
 }
 
 table.torrent_table tr.colhead a:visited:hover {
-    color:  #ff8354;
+    color:  #ff8354 !important;
 }
 
 table.torrent_table tr.colhead a:visited {
-    color:  #ffffff;
+    color:  #ffffff !important;
 }
 
 table.torrent_table tr.colhead a:hover {
-    color:  #ff8354;
+    color:  #ff8354 !important;
 }
 
 table.torrent_table tr.colhead a {
-    color:  #ffffff;
+    color:  #ffffff !important;
 }
 
 table.torrent_table a {
