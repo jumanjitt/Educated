@@ -78,7 +78,11 @@ a:visited, .linkbox a:visited, .permission_container a:visited,
     font-weight:normal !important;
 }
 
+#header_bottom a:hover, #header_bottom a:visited:hover {
 
+color: #ff8354;
+
+}
 
 a:visited:hover, a:hover, .linkbox a:hover, .permission_container a:hover,
     .forum_index a:hover, .forum_list a:hover, #search_button:hover,
@@ -717,9 +721,9 @@ table.userinfo_stats a {
 
 }
 
-#stats_block a:hover, #header_bottom a:hover {
+#stats_block a:hover, #header_bottom a:hover, #header_bottom a:visited:hover {
     text-decoration: none;
-    color: #bbb;
+    color: #ff8354 !important;
 }
 
 #header_bottom {
