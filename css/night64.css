@@ -3611,7 +3611,19 @@ h2 img {
 }
 
 table.torrent_table a:visited:hover {
-    color:  #ff8354
+    color:  #ff8354;
+}
+
+table.torrent_table tr.colhead a:visited:hover {
+    color:  #ff8354;
+}
+
+table.torrent_table tr.colhead a:hover {
+    color:  #ff8354;
+}
+
+table.torrent_table tr.colhead a {
+    color:  #ffffff;
 }
 
 table.torrent_table a {
