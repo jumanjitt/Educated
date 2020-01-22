@@ -3618,6 +3618,10 @@ table.torrent_table tr.colhead a:visited:hover {
     color:  #ff8354;
 }
 
+table.torrent_table tr.colhead a:visited {
+    color:  #ffffff;
+}
+
 table.torrent_table tr.colhead a:hover {
     color:  #ff8354;
 }
